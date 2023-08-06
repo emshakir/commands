@@ -95,4 +95,11 @@ _A list of my commonly used commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+#### Others
+| Command | Description |
+| ------- | ----------- |
+|`gitk --all`| View both local and pending remote commits with gitk tool |
+|`git diff HEAD origin/[remote branch name]`| Get the latest commits from remote after fecthing |
+|`git diff origin/[remote branch name]`|  Get all Commits from remote|
   
